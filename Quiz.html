@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href= "./assets/css/quiz.css">
+    <title>Quiz Me</title>
+</head>
+<body>
+   <div class="container">
+       <div class="jumbotron p1">
+        <h1 class="display-4">Quiz Game</h1>
+        <p class="lead">Let's test your knowledge with random question!</p>
+        <hr class="my-4">
+        <div id="counter" style="margin-top:50px;"></div>
+        <button value="button text" class="btn btn-primary btn-lg startBtn" id="startBtn" >Start!</button>
+    </div>
+   <div id="question-container" class="hide">
+       <div id="question"></div>
+       <div class="answerBtn" id="answerBtn"></div>
+   </div> 
+   <div class="score p3">
+       <div class="finalScore" id="finalScore"></div>
+   </div>
+   <div id="feedback" class="feedback hide"></div> 
+   <script src="./assets/js/questions.js"></script>
+   <script src="./assets/js/scripts.js"></script>
+</body>
+</html>

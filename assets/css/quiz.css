@@ -1,0 +1,23 @@
+
+body {
+    background-color: #27d1b2;
+    padding: 0;
+    margin: 0;
+}
+
+
+#question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.btn{
+    display: flex;
+    font-size: 1.25rem;
+}
+
+.jumbotron {
+    text-align: center;
+}
